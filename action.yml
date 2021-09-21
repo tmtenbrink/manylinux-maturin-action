@@ -1,1 +1,5 @@
-
+name: 'Write to Workspace'
+description: 'Writes to the workspace'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
