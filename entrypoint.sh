@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 cd $GITHUB_WORKSPACE
-ech $(pwd)
+echo $(pwd)
 echo "I did something!"
 mkdir /build
 cd /build
