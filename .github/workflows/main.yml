@@ -27,6 +27,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd /home/runner/work/_temp/_github_home
-          echo pwd
           ls
         working-directory: ${{ github.workspace }}
